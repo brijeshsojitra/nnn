@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background-image: url(2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding: 0;
+  opacity: 0.8;
+
+
+}
+
+.title {
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 150px;
+  background-image: linear-gradient(#fff, #fff);
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  background-position: -640px 0;
+  animation: back 7s linear alternate infinite;
+
+}
+
+@keyframes back {
+  100% {
+    background-position: 0px 0;
+
+  }
+
+}
